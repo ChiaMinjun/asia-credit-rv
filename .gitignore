@@ -1,0 +1,8 @@
+# ICE BofA index data from FRED is licensed and must not be redistributed:
+# keep downloaded data and generated screens out of the repo.
+data/
+reports/
+__pycache__/
+*.pyc
+.venv/
+.pytest_cache/

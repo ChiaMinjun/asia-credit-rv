@@ -1,0 +1,10 @@
+[project]
+name = "asia-credit-rv"
+version = "0.1.0"
+description = "Relative-value screen and trade journal for Asia USD credit and UST curves, on free FRED data"
+requires-python = ">=3.10"
+dependencies = ["pandas>=2.0", "numpy>=1.24", "matplotlib>=3.7"]
+
+[tool.pytest.ini_options]
+pythonpath = ["."]
+testpaths = ["tests"]
